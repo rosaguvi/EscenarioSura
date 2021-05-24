@@ -1,0 +1,16 @@
+server:
+  port: 9090
+  servlet:
+    context-path: /construccion_ws
+
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/Contruccion
+    platform: postgres
+    username: postgres
+    password: mLemouw105
+  jpa:
+    hibernate:
+      ddl-auto: update 
+    generate-ddl: true
